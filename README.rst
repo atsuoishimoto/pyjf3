@@ -1,8 +1,8 @@
 ============================
-Kaa - console text editor
+pyjf3
 ============================
 
-Kaa is a small and easy text editor for console environment.
+Utility functions to manipulate Japanese texts.
 
 Requirements
 ============
