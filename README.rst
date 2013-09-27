@@ -38,8 +38,8 @@ getnengo(y, m, d, letter=False)
 
 y年m月d日の年号と年のタプルを返す。letter=Trueの場合は年号としてH/S/T/Mのいずれかを返す。
 
-heiseitoyear(y), showatoyear(y), taishoyear(y), meijoyear(y)
---------------------------------------------------------------
+heiseitoyear(y), showatoyear(y), taishoyear(y), meijitoyear(y)
+------------------------------------------------------------------
 
 平成、昭和、大正、明治の年から、西暦を返す。
 
