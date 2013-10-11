@@ -3,11 +3,12 @@ import os, sys
 from setuptools import setup
 
 def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return open(os.path.join(os.path.dirname(__file__), fname), 
+            encoding='utf-8').read()
 
 setup(
     name='pyjf3',
-    version='0.1',
+    version='0.2',
     description = 'Japanese text functions for Python 3',
     long_description = read('README.rst'),
     author = 'Atsuo Ishimoto',
