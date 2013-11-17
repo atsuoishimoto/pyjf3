@@ -8,7 +8,7 @@ def read(fname):
 
 setup(
     name='pyjf3',
-    version='0.2',
+    version='0.3',
     description = 'Japanese text functions for Python 3',
     long_description = read('README.rst'),
     author = 'Atsuo Ishimoto',

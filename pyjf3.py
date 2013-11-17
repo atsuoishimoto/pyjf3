@@ -1105,6 +1105,9 @@ def _mskanji_to_jis(h, l):
     
 
 def guess(s):
+    if not s:
+        return ASCII
+
     # check BOM
     bom = s[:2]
     if bom == b"\xff\xfe":

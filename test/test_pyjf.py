@@ -1,7 +1,7 @@
 # -*- coding: ShiftJIS -*-
 import unittest, random, io
 
-from pyjf import *
+from pyjf3 import *
 
 try:
     unicode
@@ -9,6 +9,9 @@ except NameError:
     unicode = str
 
 class TestGuess(unittest.TestCase):
+    def testEmpty(self):
+        self.failUnlessEqual(guess(b''), ASCII)
+
     def testSJIS(self):
         s = io.open("sjis.txt", "rb").read()
         self.failUnlessEqual(guess(s), SJIS)
